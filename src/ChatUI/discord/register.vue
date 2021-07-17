@@ -4,15 +4,24 @@
 
         <div class="rounded-md shadow-2xl flex" style="background:rgb(54,57,63);position:fixed;top:50%;left:50%;width:450px;height:600px;margin-top: -300px;margin-left: -225px;">
             <div class="flex-grow p-6 pt-7">
-                <p class="text-white text-2xl font-bold">Create an account </p>
-                <p class="text-gray-400 text-sm mt-1">We're so excited to see you again!</p>
+                <p class="text-center text-white text-2xl font-bold">Create an account </p>
+              
                 
                  <div class="mt-6">
                     <label for="email" class="block text-xs font-medium text-gray-400">
-                    Email address
+                    Email
                     </label>
                     <div class="mt-1">
                     <input placeholder="email address" id="email" name="email" type="email" autocomplete="email" required="" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                    </div>
+                 </div>
+
+                  <div class="mt-2">
+                    <label for="email" class="block text-xs font-medium text-gray-400">
+                    Username
+                    </label>
+                    <div class="mt-1">
+                    <input placeholder="username" id="email" name="email" type="username" autocomplete="email" required="" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
                     </div>
                  </div>
 
@@ -23,6 +32,48 @@
             <div class="mt-1">
               <input placeholder="password" id="password" name="password" type="password" autocomplete="current-password" required="" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
             </div>
+          </div>
+
+          <div class="mt-5">
+
+          <label for="password" class="block text-xs font-medium text-gray-400">
+              DATE OF BIRTH
+            </label>
+            
+            <div class="flex justify-evenly pb-2">
+              <div>
+                    <select id="location" name="location" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                      <option>USA</option>
+                      <option selected="">Select</option>
+                      <option>JANUARY</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                      <option>EU</option>
+                    </select>
+              </div>
+                  <div>
+                    <select id="location" name="location" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                      <option>USA</option>
+                      <option selected="">Canada</option>
+                      <option>EU</option>
+                    </select>
+              </div>
+                  <div>
+                    <select id="location" name="location" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                      <option>USA</option>
+                      <option selected="">Canada</option>
+                      <option>EU</option>
+                    </select>
+              </div>
+
+            </div>
+          
           </div>
 
            <div class="mt-2 flex items-center justify-between">
