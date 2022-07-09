@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --dest ./backend/dist"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^29.0.0",
