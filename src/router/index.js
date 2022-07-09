@@ -1,15 +1,22 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 
-import GuildChatUI from '../ChatUI/discord/guildchat'
-import Emoji from  '../ChatUI/discord/emoji'
-import DiscordLogin from  '../ChatUI/discord/login'
-import DiscordRegister from  '../ChatUI/discord/register'
+import GuildChatUI from '../pages/ChatUI/discord/guildchat'
+import Emoji from  '../pages/ChatUI/discord/emoji'
+import DiscordLogin from  '../pages/ChatUI/discord/login'
+import DiscordRegister from  '../pages/ChatUI/discord/register'
 
+
+//coins
+import Coins from '../pages/Coins/main'
 
 const routes = [
   {
-    path:"/register",
+    path:"/coins",
+    component:  Coins
+  },
+  {
+    path:"/",
     component:DiscordRegister
   },
   {
@@ -21,13 +28,13 @@ const routes = [
     component:Emoji
   },
   {
-    path:"/",
+    path:"/app",
     component:GuildChatUI
   },
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(),
   routes
 })
 

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.e5af7eafa7f3b756714c0457c75e5e01.js"
+  "/precache-manifest.630e913b04cd4e9767ba0f4912a2707d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "altweeb"});
