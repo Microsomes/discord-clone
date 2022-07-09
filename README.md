@@ -1,19 +1,11 @@
 # altweeb
 
-## Project setup
-```
-npm install
-```
+# Welcome to my discord clone
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#Dev logs
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2021- inception
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2022 
+- Jul
+Working on the backend for the discord clone
