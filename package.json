@@ -16,7 +16,7 @@
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "agora-rtm-sdk": "^1.4.3",
     "autoprefixer": "^9",
-    "axios": "^0.21.4",
+    "axios": "^1.6.4",
     "jwt-decode": "^3.1.2",
     "moment": "^2.29.1",
     "postcss": "^7",
